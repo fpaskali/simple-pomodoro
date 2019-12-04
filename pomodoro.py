@@ -28,7 +28,7 @@ def pomodoro(work, short, long, repeats):
 
 def main():
     parser = argparse.ArgumentParser(description='Simple Pomodoro.')
-    parser.add_argument("-pomodoro", type=int, help="Duration of working period in minutes. (default=25m)", default=25)
+    parser.add_argument("-pomodoro", type=int, help="Duration of working period in minutes. (default=25)", default=25)
     parser.add_argument("-short", type=int, help="Duration of short break in minutes. (default=5)", default=5)
     parser.add_argument("-long", type=int, help="Duration of long break in minutes. (default=15)", default=15)
     parser.add_argument("-repeats", type=int, help="Number of working periodes, before long break. (default=4)", default=4)
